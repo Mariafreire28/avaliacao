@@ -1,20 +1,9 @@
 using UnityEngine;
 
 public class Player : MonoBehaviour
-{
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-    { public float velocidade = 40
-    public float andando = 4
+ { 
+     public float velocidade = 40;
+    public float forcaDoPulo = 4f;
     
     private bool noChao = false;
     private bool andando = false;
